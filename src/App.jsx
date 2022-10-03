@@ -1,4 +1,3 @@
-import "./Styles/App.css";
 import Home from "./Components/Home";
 import Create from "./Components/Create";
 import Event from "./Components/Event";

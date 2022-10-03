@@ -1,0 +1,52 @@
+.landing-page {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 100vh;
+	text-align: center;
+	background-color: var(--background-color);
+}
+
+.header-title {
+	font-size: 32px;
+	line-height: 36px;
+	color: var(--text-color);
+	font-family: Helvetica, sans-serif;
+}
+
+.header-snapchat {
+	background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.header-para {
+	color: var(--secondary-text-color);
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.btn-create__event {
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0em;
+	text-align: right;
+	color: #ffffff;
+	background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.landing-page__image {
+	width: 50%;
+	/* height: 100%; */
+}
